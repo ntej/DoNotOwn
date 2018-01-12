@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="www.ntej.com.donotown.MainActivity"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VarunAnna:" />
+
+        <EditText
+            android:id="@+id/person1ET"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#ff0000"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BhaskerUncle:" />
+
+        <EditText
+            android:id="@+id/person2ET"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#ff0000"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loan:" />
+
+        <EditText
+            android:id="@+id/person3ET"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#ff0000"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Splitwise:" />
+
+        <EditText
+            android:id="@+id/person4ET"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#ff0000"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CreditCards:" />
+
+        <EditText
+            android:id="@+id/person5ET"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#ff0000"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OtherPeople:" />
+
+        <EditText
+            android:id="@+id/person6ET"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#ff0000"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I Get:" />
+
+        <EditText
+            android:id="@+id/personOweET"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#00e91f"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/totalButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calculate-Fucking-Total"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/netTV"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="100sp"/>
+    </LinearLayout>
+
+</LinearLayout>
