@@ -3,8 +3,10 @@
     <string name="person1">person1</string>
     <string name="person2">person2</string>
     <string name="person3">person3</string>
-    <string name="person4">person4</string>
-    <string name="person5">person5</string>
+    <string name="person5_0">person5_0</string>
+    <string name="person5_1">person5_1</string>
+    <string name="person5_2">person5_2</string>
+    <string name="person5_3">person5_3</string>
     <string name="person6">person6</string>
     <string name="person_owe">personOwe</string>
 </resources>

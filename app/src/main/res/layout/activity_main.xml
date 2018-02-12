@@ -34,7 +34,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="BhaskerUncle:" />
+            android:text="CarLoan:" />
 
         <EditText
             android:id="@+id/person2ET"
@@ -53,7 +53,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Loan:" />
+            android:text="EduLoan:" />
 
         <EditText
             android:id="@+id/person3ET"
@@ -65,6 +65,25 @@
             android:textColor="#ff0000"/>
     </LinearLayout>
 
+    <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Splitwise:" />-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/person4ET"-->
+            <!--android:layout_width="140dp"-->
+            <!--android:layout_height="35dp"-->
+            <!--android:inputType="number"-->
+            <!--android:textAlignment="center"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textColor="#ff0000"/>-->
+    <!--</LinearLayout>-->
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
@@ -72,10 +91,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Splitwise:" />
+            android:text="USBank:" />
 
         <EditText
-            android:id="@+id/person4ET"
+            android:id="@+id/person5.0ET"
             android:layout_width="140dp"
             android:layout_height="35dp"
             android:inputType="number"
@@ -91,10 +110,48 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="CreditCards:" />
+            android:text="Discover:" />
 
         <EditText
-            android:id="@+id/person5ET"
+            android:id="@+id/person5.1ET"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#ff0000"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DCU" />
+
+        <EditText
+            android:id="@+id/person5.2ET"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#ff0000"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BestBuy" />
+
+        <EditText
+            android:id="@+id/person5.3ET"
             android:layout_width="140dp"
             android:layout_height="35dp"
             android:inputType="number"
@@ -157,12 +214,12 @@
 
         <TextView
             android:id="@+id/netTV"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="0dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="number"
             android:textAlignment="center"
-            android:textSize="100sp"/>
+            android:textSize="100sp" />
     </LinearLayout>
 
 </LinearLayout>
